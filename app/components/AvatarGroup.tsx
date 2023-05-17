@@ -24,14 +24,14 @@ const AvatarGroup: React.FC<AvatarGroupProps> = ({
                 <div
                     key={user.id}
                     className={`
-            absolute
-            inline-block 
-            rounded-full 
-            overflow-hidden
-            h-[21px]
-            w-[21px]
-            ${positionMap[index as keyof typeof positionMap]}
-          `}>
+                        absolute
+                        inline-block 
+                        rounded-full 
+                        overflow-hidden
+                        h-[21px]
+                        w-[21px]
+                        ${positionMap[index as keyof typeof positionMap]}
+                    `}>
                     <Image
                         fill
                         src={user?.image || '/images/placeholder.jpg'}
