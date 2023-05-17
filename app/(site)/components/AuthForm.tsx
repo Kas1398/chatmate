@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import Button from "@/app/components/Button";
-import Input from "@/app/components/inputs/input";
+import Input from "@/app/components/inputs/Input";
 import { useCallback, useEffect, useState } from "react";
 import { FieldValues, useForm, SubmitHandler } from 'react-hook-form';
 import AuthSocialButton from "./AuthSocialButton";
