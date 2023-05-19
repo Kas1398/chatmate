@@ -1,6 +1,6 @@
 import { IconType } from 'react-icons';
 
-interface AuthSocialButton {
+interface AuthSocialButtonProps {
     icon: IconType,
     onClick: () => void;
 }
